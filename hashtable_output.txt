@@ -1,0 +1,65 @@
+PS C:\Users\hp\OneDrive\Desktop\DSA> python -u "c:\Users\hp\OneDrive\Desktop\DSA\try.py"
+Enter the number of records : 6
+Enter the name : Niraj     
+Enter the phone number : 9579531214
+Enter the name : Rushikesh
+Enter the phone number : 9850350508
+Enter the name : Shrikesh
+Enter the phone number : 8857094284
+
+***** Collision Occurured ******
+1.Linear Probing
+2.Separate Chaining
+1
+0->[]
+1->[]
+2->[]
+3->[]
+4->[('Niraj', 9579531214)]
+5->[('Shrikesh', 8857094284)]
+6->[]
+7->[]
+8->[('Rushikesh', 9850350508)]
+9->[]
+Enter the name : Rahul
+Enter the phone number : 8025469822
+Enter the name : Aaryan
+Enter the phone number : 9124876578
+
+***** Collision Occurured ******
+1.Linear Probing
+2.Separate Chaining
+2
+0->[]
+1->[]
+2->[('Rahul', 8025469822)]
+3->[]
+4->[('Niraj', 9579531214)]
+5->[('Shrikesh', 8857094284)]
+6->[]
+7->[]
+8->[('Rushikesh', 9850350508), ('Aaryan', 9124876578)]
+9->[]
+Enter the name : Ajinkya
+Enter the phone number : 8766614700
+
+Hash Table
+
+0->[('Ajinkya', 8766614700)]
+1->[]
+2->[('Rahul', 8025469822)]
+3->[]
+4->[('Niraj', 9579531214)]
+5->[('Shrikesh', 8857094284)]
+6->[]
+7->[]
+8->[('Rushikesh', 9850350508), ('Aaryan', 9124876578)]
+9->[]
+Enter the number of phone records do you want to search : 3
+Enter the phone number to be searched : 9579531214
+Found ! : Niraj
+Enter the phone number to be searched : 873541408920
+Not found
+Enter the phone number to be searched : 8025469822
+Found ! : Rahul
+PS C:\Users\hp\OneDrive\Desktop\DSA> 

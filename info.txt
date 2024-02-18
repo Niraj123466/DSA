@@ -1,0 +1,2 @@
+Series is 1d array capable of storing any data of any data type
+DataFrame is used for displaying 2d info 
